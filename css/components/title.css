@@ -5,3 +5,10 @@
     text-shadow: 4px 4px 4px brown;
     margin: 0px;
 }
+
+.title.-second {
+    color: cornsilk;
+    text-shadow: none;
+    text-align: center;
+
+}

@@ -1,0 +1,23 @@
+.section {
+    box-sizing: border-box;
+    background-image: url(../../imagens/projetosbanner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 759px;
+    border-bottom: 10px solid #4e3a3b;
+    border-right: 10px solid #4e3a3b;
+}
+
+.section.-second {
+    background-color: lightblue;
+    background-image: url(../../imagens/sobrebanner.png);
+}
+
+.section.-third {
+    background-color: rgb(97, 68, 6);
+    background-image: none;
+    height: auto;
+    padding-top: 10px;
+}
