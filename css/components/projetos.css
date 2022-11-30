@@ -1,0 +1,29 @@
+.projetos {
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #4e3a3b;
+}
+
+.projetos .projetinho {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 6px 6px 0 #4e3a3b;
+    justify-content: space-around;
+}
+
+.projetos-icon {
+    margin-right: 25px;
+}
+
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-shadow: none;
+    margin: 0px;
+}

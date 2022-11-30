@@ -1,0 +1,14 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-bottom: 10px solid #4e3a3b;
+    border-right: 10px solid #4e3a3b;
+}
+
+.main-footer .action {
+    margin-right: 20px;
+    margin-left: 20px;
+}

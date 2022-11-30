@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../imagens/sitebanner.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     height: 634px;
     border-right: 10px solid #4e3a3b;
     border-bottom: 10px solid #4e3a3b;
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
+    visibility: hidden;
 }
 
 .banner .box {
@@ -22,4 +23,44 @@
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+}
+
+
+.banner-pages {
+    background-color: bisque;
+    background-size: auto;
+    height: auto;
+    border-right: 10px solid #4e3a3b;
+    border-bottom: 10px solid #4e3a3b;
+    padding-top: 115px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.banner-pages.-cn{
+    background-color: aquamarine;
+
+}
+
+.banner-pages.-lg {
+    background-color: rgba(53, 129, 180, 0.534);
+}
+
+.banner-pages.-mt {
+    background-color: rgba(236, 133, 133, 0.747);
+}
+
+.banner-pages.-ti {
+    background-color: rgba(255, 180, 245, 0.534);
+}
+
+.banner-pages.-tec {
+    background-color: rgba(107, 107, 107, 0.534);
+}
+
+.banner-pages .wrapper-pages {
+    display: flex;
+    flex-direction: column;
+    width: auto;
 }

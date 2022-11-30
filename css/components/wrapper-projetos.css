@@ -1,0 +1,21 @@
+.wrapper-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 788px;
+    margin-left:auto;
+    margin-right:auto;
+    visibility: hidden;
+}
+
+.wrapper-projetos .projetos {
+    width: 344px;
+    margin-bottom: 40px;
+}
+
+.wrapper-projetos .projetos.-space {
+    margin-right: 100px;
+}
+
+.wrapper-projetos .projetinho {
+    width: 250px;
+}

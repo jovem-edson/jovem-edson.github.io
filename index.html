@@ -13,16 +13,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=RocknRoll+One&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/header.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/banner.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/section.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/title.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/subtitles.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/box.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/button.css">
-    <link rel="stylesheet" type="text/css" href="./css/components/action.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/banner.css">
+    <link rel="stylesheet" href="./css/components/section.css">
+    <link rel="stylesheet" href="./css/components/main-title.css">
+    <link rel="stylesheet" href="./css/components/subtitles.css">
+    <link rel="stylesheet" href="./css/components/projetos.css">
+    <link rel="stylesheet" href="./css/components/wrapper-projetos.css">
+    <link rel="stylesheet" href="./css/components/box.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/action.css">
+    <link rel="stylesheet" href="./css/components/edson-images.css">
+    <link rel="stylesheet" href="./css/components/main-footer.css">
+    <link rel="stylesheet" href="./css/components/icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./javascript/js/all.min.js"></script>
     
 
     <title>Portfolio Nest</title>
@@ -32,47 +39,129 @@
     <header class="header">
         <img src="./imagens/logosite.png" alt="logo-do-site" width="80px" height="90px">
         <!-- como a classe nos informa, o header serve como um cabeçalho da nossa página-->
-        <nav>
+        <nav class="navigation">
             <!-- navegação do site-->
-            <a class="action" href="">Notícias</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="">Tecnologia</a>
+            <a class="main-action" href="#Registros">Registros</a>
+            <a class="main-action" href="#Projetos">Projetos</a>
+            <a class="main-action" href="#Sobre">Sobre</a>
+            <a class="main-action" href="#Contatos">Contatos</a>
+            <a class="button" href="./tecnologia.html">Tecnologia</a>
         </nav>
     </header>
 
     <section class="banner">
+        <div class="box-pages -second">
+            <img src="./imagens/IMG_0711.JPG" alt="" class="src">
+        </div>
+
         <div class="wrapper">
             <div class="box">
-                <h1 class ="title">Portfólio Nest</h1>
+                <h1 class ="main-title">Portfólio Nest</h1>
                 <h2 class="subtitle">Atividade Final de T.I.</h2>
             </div>
 
                 <div class="navigation">
-                    <a class="button" href="">Notícias</a>
-                    <a class="button" href="">Tecnologia</a>
+                    <a class="button" href="#Registros">Registros</a>
+                    <a class="button" href="./tecnologia.html">Tecnologia</a>
+                </div>
+                <div class="box-pages -first">
+                    <p class="text">Um ninho de conhecimentos que busca inspirar e ensinar mas que também deseja aprender. Criado por Edson, aqui você verá os melhores projetos realizados ao longo dos anos...</p>
                 </div>
         </div>
-    </section>
-
-    <section class="section">
-        <h2 class="title -second">Projetos</h2>
-        <dl> <!--lista de descrição-->
-            <dt>Ciências Humanas</dt>
-            <dd>Para esta área, meu melhor </dd>
-        </dl>
-    </section>
-
-    <section class="section -second">
-        <h2 class="title -second">Sobre</h2>
-    </section>
-
-    <section class="section -third">
-        <h2 class="title -second">Contatos</h2>
 
     </section>
 
+    <section class="section" id="Projetos">
+        <h2 class="main-title -second">Projetos</h2>
+
+            <div class="wrapper-projetos">
+                <article class="projetos -space"> 
+                    <img class="projetos-icon" src="./imagens/humicon.jpeg" alt="logo-ciencias-humanas">
+                    <div class="projetinho">
+                        <h3>Ciências Humanas<h3>
+                        <a class="elink" href="./projetosch.html">Projetos de CH</a>
+                    </div>
+                </article>
+
+                <article class="projetos"> 
+                    <img class="projetos-icon" src="./imagens/naticon.jpeg" alt="logo-ciencias-da-natureza">
+                    <div class="projetinho">
+                        <h3>Ciências da Natureza<h3>
+                        <a class="elink" href="./projetoscn.html">Projetos de CN</a>
+                    </div>
+                </article>
+
+                <article class="projetos -space"> 
+                    <img class="projetos-icon" src="./imagens/lingicon.jpeg" alt="logo-linguagens">
+                    <div class="projetinho">
+                        <h3>Linguagens<h3>
+                            <a class="elink" href="./projetoslg.html">Projetos de LG</a>
+                    </div>
+                </article>
+
+                <article class="projetos"> 
+                    <img class="projetos-icon" src="./imagens/maticon.jpeg" alt="logo-matematica">
+                    <div class="projetinho">
+                        <h3>Matemática<h3>
+                            <a class="elink" href="./projetosmat.html">Projetos de MT</a>
+                    </div>
+                </article>
+
+                <article class="projetos -space"> 
+                    <img class="projetos-icon" src="./imagens/tiicon.jpeg" alt="logo-ti">
+                    <div class="projetinho">
+                        <h3>T.I.<h3>
+                            <a class="elink" href="./projetosti.html">Projetos de TI</a>
+                    </div>
+                </article>
+
+                <article class="projetos"> 
+                    <img class="projetos-icon" src="./imagens/tecicon.jpeg" alt="logo-tecnologia">
+                    <div class="projetinho">
+                        <h3>Tecnologia<h3>
+                            <a class="elink" href="./tecnologia.html">Tecnologia</a>
+                    </div>
+                </article>
+    </section>
+
+    <section class="section -second" id="Registros">
+        <h2 class="main-title -second">Registros</h2>
+
+        <div class="box-pages -second">
+            <img src="./imagens/IMG_0621.JPG" alt="edson-violao" class="src">
+            <div class="box-pages -first">
+            <span class="text"> Assim como na imagem ao lado, essa foto representa um dos últimos dias de aula. Nesse momento eu estava tentando tocar o violão do menino José enquanto o Projeto Click tirava fotos.</span>
+            </div>
+        </div>
+
+        <div class="box-pages -second">
+            <img src="./imagens/IMG_0750.JPG" alt="edson-óculos" class="src">
+            <div class="box-pages -first">
+            <span class="text"> Gostaria de deixar esse dia registrado pois foi o último dia de projeto de vida, fiquei bem triste por ter acabado e tenho certeza que sentirei muitas saudades.</span>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="section -third" id="Sobre">
+        <h2 class="main-title -second" id="Sobre">Sobre</h2>
+
+        <div class="wrapper-pages">
+            <div class="box-pages -first">
+        <p class="text"> Eu me chamo Edson de Oliveira Correia, moro na região sul de São Paulo. Gosto bastante de me envolver com tecnologia, desde pequeno sempre fui fã de jogar video-games e ir atrás de curiosidades sobre computadores. Atualmente tenho 17 anos e estou concluindo o terceiro ano do Ensino Médio, durante esse ciclo pude fazer vários amigos e aprendi algumas lições da própria vida, me considero um garoto sonhador e com um desejo imenso de ver todos que são próximos a mim sorrirem. Sobre meu lado profissional, você pode ficar sabendo mais observando o meu <a class="elink" href="./curriculo vitae.html">Currículo</a> feito em HTML.</p>
+    </section>
+
+    <footer class="main-footer" id="Contatos">
+        <a class="action" href="https://twitter.com/oiiedson" target="_blank">
+            <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+        </a>
+
+        <a class="action" href="https://www.instagram.com/oiiedson/" target="_blank">
+            <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+        </a>
+    </footer>
+
+    <script type="text/javascript" src="./javascript/script.js"></script>
 </body>
 
 </html>
